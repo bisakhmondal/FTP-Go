@@ -23,8 +23,8 @@ cd ../client
 go run client.go utils.go
 ```
 
-#### Add credential in read time in server/credential.json
+#### Add credentials real time @ `server/credential.json` before attaching a new ftp client to the server.
 
-easy- peasy right!
+easy-peasy right!
 
 ~Bisakh.
