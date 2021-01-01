@@ -1,7 +1,7 @@
 ## FTP CLIENT-SERVER simulation in GoLang
 A File Transfer Protocol(FTP) **Multi Client** Simulation in go environment.
 
-### Supported Command
+### Supported Commands
 - **pwd** [print working directory]
 - **ls** [list directory]
 - **cd** [change directory]
@@ -24,6 +24,15 @@ go run client.go utils.go
 ```
 
 #### Add credentials real time @ `server/credential.json` before attaching a new ftp client to the server.
+***
+
+
+#### A screenshot of local clinet connected to the server running on GCP cloud VM.
+Run the `server` in cloud VM and put the ip of the instance in `clinet/client.go`'s `HOST` parameter.
+  
+![Screenshot](filestore/ss.png)
+
+!make sure to allow traffic to the port on your VPC firewall.
 
 easy-peasy right!
 
