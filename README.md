@@ -1,5 +1,5 @@
-## FTP CLIENT-SERVER simulation in GoLang
-A File Transfer Protocol(FTP) **Multi Client** Simulation in go environment.
+## FTP CLIENT-SERVER implementation in GoLang
+A File Transfer Protocol(FTP) **Multi Client** implementation in go environment with client authentication.
 
 ### Supported Commands
 - **pwd** [print working directory]
@@ -27,12 +27,12 @@ go run client.go utils.go
 ***
 
 
-#### A screenshot of local clinet connected to the server running on GCP cloud VM.
-Run the `server` in cloud VM and put the ip of the instance in `clinet/client.go`'s `HOST` parameter.
+#### A screenshot of local client connected to the server running on GCP cloud VM.
+Run the `server` in cloud VM and put the ip of the instance in `client/client.go`'s `HOST` parameter.
   
 ![Screenshot](filestore/ss.png)
 
-!make sure to allow traffic to the port on your VPC firewall.
+!make sure to allow traffic to the port specified on your VPC firewall.
 
 easy-peasy right!
 
